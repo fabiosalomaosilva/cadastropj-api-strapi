@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conta_bancarias",
+  "info": {
+    "singularName": "conta-bancaria",
+    "pluralName": "conta-bancarias",
+    "displayName": "ContaBancaria"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tipo": {
+      "type": "string"
+    },
+    "agencia": {
+      "type": "integer"
+    },
+    "conta": {
+      "type": "integer"
+    },
+    "digito": {
+      "type": "integer"
+    },
+    "banco": {
+      "type": "integer"
+    }
+  }
+}

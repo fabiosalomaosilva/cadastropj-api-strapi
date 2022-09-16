@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "controladors",
+  "info": {
+    "singularName": "controlador",
+    "pluralName": "controladors",
+    "displayName": "Controlador"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "razaoSocial": {
+      "type": "string"
+    },
+    "cnpj": {
+      "type": "string"
+    },
+    "participacao": {
+      "type": "decimal"
+    },
+    "controladorPai": {
+      "type": "string"
+    }
+  }
+}

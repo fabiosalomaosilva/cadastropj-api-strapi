@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "Cliente"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomeUsuario": {
+      "type": "string",
+      "required": false
+    },
+    "principalObjetivoComercial": {
+      "type": "string",
+      "required": false
+    },
+    "telefone": {
+      "type": "string",
+      "required": false
+    },
+    "ramal": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": false
+    },
+    "confirmarEmail": {
+      "type": "email"
+    },
+    "denominacaoComercial": {
+      "type": "string"
+    },
+    "cnpj": {
+      "type": "string"
+    },
+    "dataConstituicao": {
+      "type": "string"
+    },
+    "formaConstituicao": {
+      "type": "string"
+    },
+    "nire": {
+      "type": "integer"
+    },
+    "principalObjetoSocial": {
+      "type": "string"
+    },
+    "principalAtividade": {
+      "type": "string"
+    },
+    "possuiVinculocomAgora": {
+      "type": "string"
+    },
+    "cep": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "complemento": {
+      "type": "string"
+    },
+    "bairro": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "cidade": {
+      "type": "string"
+    },
+    "informacoesSocietarias": {
+      "type": "string"
+    },
+    "operoCarteira": {
+      "type": "string"
+    },
+    "aplicacaoFinanceira": {
+      "type": "decimal"
+    },
+    "emprestimosFinanciamentos": {
+      "type": "decimal"
+    },
+    "patrimonioLiquido": {
+      "type": "decimal"
+    },
+    "faturamento": {
+      "type": "decimal"
+    },
+    "tipoEnderecoCorrespondencia": {
+      "type": "string"
+    },
+    "especificacaoEnderecoCorrespondencia": {
+      "type": "string"
+    }
+  }
+}

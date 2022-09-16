@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nifs",
+  "info": {
+    "singularName": "nif",
+    "pluralName": "nifs",
+    "displayName": "Nif"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "referencia": {
+      "type": "string"
+    },
+    "pais": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "integer"
+    },
+    "motivo": {
+      "type": "string"
+    },
+    "pessoaControladoraId": {
+      "type": "string"
+    },
+    "pessoa_proprietarias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pessoa-proprietaria.pessoa-proprietaria",
+      "mappedBy": "nif"
+    }
+  }
+}
